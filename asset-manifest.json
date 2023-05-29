@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web-porfolio-react/static/css/main.e1f4e4ef.css",
+    "main.js": "/web-porfolio-react/static/js/main.5faf9a04.js",
+    "static/media/mini-project2.gif": "/web-porfolio-react/static/media/mini-project2.936f670dce0c78600c43.gif",
+    "static/media/mini-project1.gif": "/web-porfolio-react/static/media/mini-project1.4a2912d9ce2f1940911a.gif",
+    "static/media/capstone.gif": "/web-porfolio-react/static/media/capstone.878882b150aee8034198.gif",
+    "static/media/Mouse.png": "/web-porfolio-react/static/media/Mouse.9936401b014359c690b7.png",
+    "static/media/3.jpg": "/web-porfolio-react/static/media/3.04ebd1270de72a5f7640.jpg",
+    "static/media/github.png": "/web-porfolio-react/static/media/github.2fccd59312619906aa96.png",
+    "static/media/css3.png": "/web-porfolio-react/static/media/css3.6f6612f142efdca0810f.png",
+    "static/media/react.png": "/web-porfolio-react/static/media/react.ee0989b9a39934b4f5d9.png",
+    "static/media/git.png": "/web-porfolio-react/static/media/git.de978e615a9ddc91c9cf.png",
+    "static/media/visual-studio-code.png": "/web-porfolio-react/static/media/visual-studio-code.b0f480a4006718edcd0a.png",
+    "static/media/bootstrap.png": "/web-porfolio-react/static/media/bootstrap.2c6b2ed2e1a29e84aa1c.png",
+    "static/media/html5.png": "/web-porfolio-react/static/media/html5.64c3ea21298ff054628f.png",
+    "static/media/javascript.png": "/web-porfolio-react/static/media/javascript.d0f25c119ad0caefcc37.png",
+    "index.html": "/web-porfolio-react/index.html",
+    "main.e1f4e4ef.css.map": "/web-porfolio-react/static/css/main.e1f4e4ef.css.map",
+    "main.5faf9a04.js.map": "/web-porfolio-react/static/js/main.5faf9a04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1f4e4ef.css",
+    "static/js/main.5faf9a04.js"
+  ]
+}
