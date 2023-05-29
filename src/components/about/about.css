@@ -1,0 +1,118 @@
+.about-me {
+    background-color: white;
+    min-height: 100vh;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.avatar {
+    height: 300px;
+    width: 300px;
+}
+
+.about-body {
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 120px;
+}
+
+.hobbies-interest {
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.hobbies-interest .h-i-container {
+    background-color: #12283d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.hobbies-interest .h-i-container:hover {
+    border: 2px solid gainsboro;
+    transform: scale(1.0);
+}
+
+.hobbies-interest-container {
+    background-color: gray;
+}
+
+.rectangle {
+    background-color: #12283d;
+    height: 30px;
+    width: 70px;
+    font-size: 6em;
+}
+
+.align {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    gap: 5px;
+}
+
+.skills-container {
+    background-color: #12283d;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    gap: 5px;
+}
+
+.experience {
+    border: 2px solid #12283d;
+}
+
+@media screen and (max-width: 500px) {
+    .about-body {
+        width: 80%;
+    }
+
+    .avatar {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content h1 {
+        text-align: center;
+    }
+
+    .hobbies-interest {
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+    }
+}

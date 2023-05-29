@@ -1,0 +1,157 @@
+.project {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.project-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.modal {
+    background-image: url('../../images/Mouse.png');
+    background-repeat: no-repeat;
+}
+
+.modal-header {
+    border-bottom: none;
+    background-color: #12283d;
+    color: white;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.modal-body {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    background-color: white;
+}
+
+.modal-footer a {
+    text-decoration: none;
+    background: white;
+    border: 1px solid #12283d;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 100;
+    width: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transform: skew(0deg);
+    color: #12283d;
+}
+
+/* .modal-link {
+    text-decoration: none;
+    color: black;
+
+} */
+
+.rectangle {
+    background-color: #12283d;
+    height: 30px;
+    width: 70px;
+    font-size: 6em;
+}
+
+.align {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .display-modal {
+        display: none;
+    }
+
+    .project {
+        background-color: white;
+        width: 100%;
+    }
+
+    .project-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .display-offcanvas {
+        display: none;
+    }
+}
+
+button {
+    background: #12283d;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 100;
+    width: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(0deg);
+    color: white;
+}
+
+span {
+    display: inline-block;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: white;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+button:hover {
+    color: #12283d;
+}
+
+button:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.modal-footer a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #12283d;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.modal-footer a:hover {
+    color: white;
+}
+
+.modal-footer a:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
