@@ -30,6 +30,12 @@ function Project() {
             "description": "This project is created using react js for the frontend and laravel for the backend",
             "thumbnail": capstone
         },
+        {
+            "title": "Web-porfolio (React)",
+            "description": "I created again my web porfolio using React",
+            "thumbnail": "",
+
+        }
 
     ];
 
@@ -37,7 +43,6 @@ function Project() {
     const [offcanvasShow, setOffCanvasShow] = useState(false);
     const [selectedProject, setSelectedProject] = useState(null);
 
-    // Modal
     function handleModal(project) {
         setSelectedProject(project);
         setModalShow(true);
@@ -48,7 +53,6 @@ function Project() {
         setModalShow(false);
     }
 
-    // Offcanvas
     function handleOffcanvas(project) {
         setSelectedProject(project);
         setOffCanvasShow(true);

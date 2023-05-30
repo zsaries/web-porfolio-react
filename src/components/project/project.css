@@ -8,11 +8,6 @@
     margin: 0 auto;
 }
 
-.modal {
-    background-image: url('../../images/Mouse.png');
-    background-repeat: no-repeat;
-}
-
 .modal-header {
     border-bottom: none;
     background-color: #12283d;
@@ -50,12 +45,6 @@
     transform: skew(0deg);
     color: #12283d;
 }
-
-/* .modal-link {
-    text-decoration: none;
-    color: black;
-
-} */
 
 .rectangle {
     background-color: #12283d;
