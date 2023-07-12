@@ -86,7 +86,6 @@ function Project() {
                         }
                     </div>
 
-
                     <Modal show={modalShow} onHide={closeModal}
                         size="lg"
                         backdrop="static"

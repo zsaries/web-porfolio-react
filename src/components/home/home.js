@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./home.css";
 import TypeWriterEffect from "react-typewriter-effect";
 
-
 function Home() {
 
     function handleClick() {
@@ -10,15 +9,26 @@ function Home() {
     }
 
     const [scroll, setScroll] = useState(false);
+    const [show, setShow] = useState(false);
     useEffect(() => {
         setTimeout(() => {
             setScroll(true);
         }, 12000);
+        setTimeout(() => {
+            setShow(true);
+        }, 13000);
     }, [setScroll]);
-
 
     return (
         <>
+            {show ? <div className="internship heartbeat">
+                <a href="mailto:keithprietolawrence@gmail.com" target="_parent">
+                    <i class="fa-lg fa-sharp fa-solid fa-square-arrow-up-right"></i>
+                    I'm looking for an Internship!
+                </a>
+            </div> : null
+            }
+
             <div className="home" id="home">
                 <div data-aos="zoom-in">
                     <h1 className="scale-in-center">Welcome to my Porfolio</h1>
@@ -36,7 +46,7 @@ function Home() {
                     startDelay={2300}
                     cursorColor="white"
                     hideCursorAfterText="true"
-                    text="I'm a full-stack web developer who is passionate about all things in coding and has experience creating websites using amazing frameworks and libraries such as React, and Laravel."
+                    text="I'm a Junior Web Developer who is like to grow my carrer and has experience creating websites using amazing frameworks and libraries such as React, and Laravel."
                     typeSpeed={40}
                 />
                 <div class="container">
@@ -49,8 +59,6 @@ function Home() {
                 </div>
 
             </div>
-            <i className="fa-2x fa-sharp fa-solid fa-chevron-up arrow-up" onClick={handleClick}></i>
-
         </>
     );
 }
