@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-porfolio-react/static/css/main.bfb79f4b.css",
-    "main.js": "/web-porfolio-react/static/js/main.ea748b27.js",
+    "main.css": "/web-porfolio-react/static/css/main.4e742c05.css",
+    "main.js": "/web-porfolio-react/static/js/main.d7b5cd27.js",
     "static/media/mini-project2.gif": "/web-porfolio-react/static/media/mini-project2.936f670dce0c78600c43.gif",
     "static/media/mini-project1.gif": "/web-porfolio-react/static/media/mini-project1.4a2912d9ce2f1940911a.gif",
     "static/media/capstone.gif": "/web-porfolio-react/static/media/capstone.878882b150aee8034198.gif",
@@ -12,17 +12,14 @@
     "static/media/php.png": "/web-porfolio-react/static/media/php.4d93a221f59c8a4f289d.png",
     "static/media/css3.png": "/web-porfolio-react/static/media/css3.6f6612f142efdca0810f.png",
     "static/media/react.png": "/web-porfolio-react/static/media/react.ee0989b9a39934b4f5d9.png",
-    "static/media/git.png": "/web-porfolio-react/static/media/git.de978e615a9ddc91c9cf.png",
-    "static/media/bootstrap.png": "/web-porfolio-react/static/media/bootstrap.2c6b2ed2e1a29e84aa1c.png",
     "static/media/html5.png": "/web-porfolio-react/static/media/html5.64c3ea21298ff054628f.png",
-    "static/media/github.png": "/web-porfolio-react/static/media/github.3d672c777607100a2fca.png",
     "static/media/javascript.png": "/web-porfolio-react/static/media/javascript.d0f25c119ad0caefcc37.png",
     "index.html": "/web-porfolio-react/index.html",
-    "main.bfb79f4b.css.map": "/web-porfolio-react/static/css/main.bfb79f4b.css.map",
-    "main.ea748b27.js.map": "/web-porfolio-react/static/js/main.ea748b27.js.map"
+    "main.4e742c05.css.map": "/web-porfolio-react/static/css/main.4e742c05.css.map",
+    "main.d7b5cd27.js.map": "/web-porfolio-react/static/js/main.d7b5cd27.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfb79f4b.css",
-    "static/js/main.ea748b27.js"
+    "static/css/main.4e742c05.css",
+    "static/js/main.d7b5cd27.js"
   ]
 }
